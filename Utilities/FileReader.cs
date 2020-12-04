@@ -11,5 +11,10 @@ namespace Utilities
             var lines = File.ReadAllLines(filePath);
             return new List<string>(lines);
         }
+
+        public static string ReadFile(string filePath)
+        {
+            return File.ReadAllText(filePath);
+        }
     }
 }
