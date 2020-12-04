@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -23,8 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Utilities\Utilities\Utilities.csproj" />
-    <ProjectReference Include="..\PasswordPhilosophy\PasswordPhilosophy.csproj" />
+    <ProjectReference Include="..\..\Utilities\Utilities.csproj" />
+    <ProjectReference Include="..\TobogganTrajectory\TobogganTrajectory.csproj" />
   </ItemGroup>
 
 </Project>
